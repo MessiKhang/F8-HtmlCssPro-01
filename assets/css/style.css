@@ -56,12 +56,12 @@ a {
     top: -26px;
     z-index: 1;
 }
-.hero-wrap{
+.hero-wrap {
     background: #e6f0ff;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     position: relative;
+    height: calc(100vh - 70px);
 }
 .navbar {
     display: flex;
