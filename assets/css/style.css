@@ -4,9 +4,14 @@
 :root {
     --primary-color: #0f1b4c;
 }
+html, body{
+    scroll-behavior: smooth;
+}
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth; /* cuộn trang mượt mà */
 }
+
 body {
     font-size: 1.6rem;
     font-family: "Fz Poppins", sans-serif;
